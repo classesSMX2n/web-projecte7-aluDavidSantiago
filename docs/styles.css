@@ -381,3 +381,66 @@ body.dark .footer {
     font-size: 2.3rem;
   }
 }
+
+/* -------- COOKIES -------- */
+.cookie-banner {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0b1e39;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  display: none;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,.2);
+  z-index: 999;
+}
+
+.cookie-banner p {
+  font-size: 0.9rem;
+}
+
+.cookie-buttons button {
+  margin-left: 0.5rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#acceptCookies {
+  background: var(--green-main);
+  color: white;
+}
+
+.cookie-link {
+  color: var(--green-main);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+#rejectCookies {
+  background: transparent;
+  border: 1px solid #fff;
+  color: white;
+}
+
+.checkbox {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--text-soft);
+  margin: 1rem 0;
+}
+
+.checkbox input {
+  margin-right: 0.5rem;
+}
+
+.checkbox a {
+  color: var(--green-main);
+  text-decoration: underline;
+}
